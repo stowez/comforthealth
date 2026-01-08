@@ -1,6 +1,5 @@
 // A $( document ).ready() block.
 $( document ).ready(function() {
-console.log('test');
 	didScroll = false;
 
 	$(window).scroll(function() {

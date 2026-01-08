@@ -34,3 +34,25 @@ h3 {
 body {
 	font-family: 'CenturyGothic', Helvetica, Arial, sans-serif;
 }
+
+.with-content {
+
+	ul {
+		margin-bottom: 3rem;
+
+		columns: 2;
+		-webkit-columns: 2;
+		-moz-columns: 2;
+		@media only screen and (max-width: 700px)  {
+			columns: 1;
+			-webkit-columns: 1;
+			-moz-columns: 1;
+		}
+
+		li {
+			line-height: 2rem;
+		}
+	}
+
+
+}

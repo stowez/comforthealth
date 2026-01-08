@@ -29,9 +29,19 @@ add_action( 'after_setup_theme', 'comforthealth_setup' );
 function register_style_scripts() {
     // wp_enqueue_style( 'template', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'core',  get_template_directory_uri() . '/styles/core.css?v=3' );
+	wp_enqueue_style( 'core',  get_template_directory_uri() . '/styles/core.css?v=5' );
+	
+	// PhotoSwipe Gallery
+	wp_enqueue_style( 'photoswipe', 'https://cdn.jsdelivr.net/npm/photoswipe@5.4.4/dist/photoswipe.min.css' );
+	wp_enqueue_style( 'photoswipe-dynamic-caption', 'https://unpkg.com/photoswipe-dynamic-caption-plugin@1.2.7/photoswipe-dynamic-caption-plugin.css' );
+	
+	wp_enqueue_script( 'photoswipe-init', get_template_directory_uri() . '/js/photoswipe-init.js', array(), '1.0', true );
+	wp_add_inline_script( 'photoswipe-init', 'window.PhotoSwipeModule = {core: null, lightbox: null, caption: null};', 'before' );
+	
+	// Legacy Featherlight (kept for existing usage in hero banner)
 	wp_enqueue_style( 'featherlight',  get_template_directory_uri() . '/js/featherlight.css' );
-	wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/custom.js?v=1', array('jquery') );
+	
+	wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/custom.js', array('jquery') );
 }
 add_action( 'wp_enqueue_scripts', 'register_style_scripts' );
 
@@ -116,7 +126,3 @@ function custom_excerpt_more( $more ) {
 return '...';
 }
 add_filter( 'excerpt_more', 'custom_excerpt_more' );
-
-
-add_filter('xmlrpc_enabled', '__return_false');
-
