@@ -1,0 +1,48 @@
+.testimonial-cards {
+	// background:#f3f3f3;
+	text-align: center;
+	.col {
+		vertical-align: top;
+		min-width: 325px;
+		@media only screen and (max-width: 500px)  {
+			min-width: 225px;
+		}
+	}
+
+	.card {
+		border: 1px solid #f1f1f1;
+		border-radius: 5px;
+		font-size: 1.8rem;
+		padding: 0 2rem 3.5rem;
+		background: #f3f3f3 url('../images/quote-c.png') no-repeat 98% 98%;
+		background-size: 50px;
+		text-align: left;
+		position: relative;
+		figure {
+			text-align: center;
+			margin: 0 auto 20px;
+			border-radius: 112px;
+			overflow: hidden;
+			width: 225px;
+			height: 225px;
+			margin-top: -2.5rem;
+			@media only screen and (max-width: 500px)  {
+				width: 200px;
+				height: 200px;
+				border-radius: 100px;
+			}
+		}
+
+		p {
+			color: #333;
+			font-size: 1.4rem;
+		}
+
+		p.testimonial-author {
+			display: block;
+			margin-top: 1rem;
+			color: #555;
+			text-align: center;
+		}
+	}
+}

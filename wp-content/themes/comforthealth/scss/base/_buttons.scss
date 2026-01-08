@@ -1,0 +1,22 @@
+.btn {
+	background: #fff;
+	color: #333;
+	border: 1px solid #333;
+	// border-radius: 5px;
+	font-size: 1.8rem;
+	padding: 13px 20px 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.outline {
+	background: none;
+	border: 1px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+	&:hover {
+		background: #fff;
+		color: $pri;
+
+	}
+}

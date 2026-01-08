@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-05-28 13:25+0000",
+    "generator": "Loco https://localise.biz/",
+    "source": "*.js",
+    "domain": "gift-up",
+    "locale_data": {
+        "gift-up": {
+            "": {
+                "domain": "",
+                "lang": "ro_RO",
+                "plural-forms": "nplurals=3; plural=(n==1 ? 0 :(((n%100>19)||(( n%100==0)&&(n!=0)))? 2 : 1));"
+            },
+            "Apply": [
+                "Aplica"
+            ],
+            "Available balance": [
+                "Sold disponibil"
+            ],
+            "Gift card": [
+                "Card cadou"
+            ],
+            "Gift card code": [
+                "Cod card cadou"
+            ],
+            "Gift card not found": [
+                "Cardul cadou nu a fost g\u0103sit"
+            ],
+            "Have a gift card?": [
+                "Ai un card cadou?"
+            ]
+        }
+    }
+}

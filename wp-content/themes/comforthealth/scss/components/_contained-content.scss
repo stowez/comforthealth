@@ -1,0 +1,42 @@
+.contained-content {
+	padding: 5rem 0;
+	
+	article {
+		// text-align: center;
+		width: 60%;
+		padding: 0 10%;
+		display: inline-block;
+		@media only screen and (max-width: 710px)  {
+			width: 100%;
+			padding: 2rem;
+		}
+	}
+
+	aside {
+		padding: 0 5%;
+		width: 40%;
+		display: inline-block;
+		vertical-align: top;
+
+		@media only screen and (max-width: 710px)  {
+			width: 100%;
+			padding: 2rem;
+		}
+
+		img {
+			border:1px solid #fff;
+			outline: 1px solid $pri;
+		}
+
+		h3 {
+			margin: 2rem 0;
+			line-height: 3rem;
+		}
+	}
+
+}
+
+.home .contained-content {
+	position: relative;
+	background-color: #fff;
+}

@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-05-28 13:25+0000",
+    "generator": "Loco https://localise.biz/",
+    "source": "*.js",
+    "domain": "gift-up",
+    "locale_data": {
+        "gift-up": {
+            "": {
+                "domain": "",
+                "lang": "ja",
+                "plural-forms": "nplurals=1; plural=0;"
+            },
+            "Apply": [
+                "\u7533\u3057\u8fbc\u3080"
+            ],
+            "Available balance": [
+                "\u5229\u7528\u53ef\u80fd\u6b8b\u9ad8"
+            ],
+            "Gift card": [
+                "\u30ae\u30d5\u30c8\u30ab\u30fc\u30c9"
+            ],
+            "Gift card code": [
+                "\u30ae\u30d5\u30c8\u30ab\u30fc\u30c9\u30b3\u30fc\u30c9"
+            ],
+            "Gift card not found": [
+                "\u30ae\u30d5\u30c8\u30ab\u30fc\u30c9\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093"
+            ],
+            "Have a gift card?": [
+                "\u30ae\u30d5\u30c8\u30ab\u30fc\u30c9\u3092\u304a\u6301\u3061\u3067\u3059\u304b?"
+            ]
+        }
+    }
+}

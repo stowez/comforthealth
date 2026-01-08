@@ -1,0 +1,126 @@
+.contact {
+	
+	article.fullwidth {
+		text-align: left;	
+		width: 100%;
+	}
+	h2 {
+		text-align: left;
+		padding: 0 2rem;
+	}
+
+	input, textarea {
+		width: 100%;
+		font-size: 1.6rem;
+		padding: .5rem;
+		border: 1px solid #f1f1f1;
+	}
+
+	li {
+		margin-bottom: 2rem;
+		width: 50%;
+		float: left;
+		padding: 0 2rem;
+
+		&:last-of-type {
+			width: 100%;
+			float: none;
+		}
+	}
+	
+	.gfield_error input, .gfield_error textarea  {
+		border: 1px solid #ad2525;
+	}
+	.gform_body {
+		overflow: hidden;
+	}
+
+	.gform_ajax_spinner_1, #gform_ajax_spinner_1 {
+		position: absolute;
+		margin-left: -25px;
+		margin-top: 10px;
+	}
+
+	label {
+		font-size: 1.4rem;
+		color: #979797;
+		text-align: left;
+		margin-bottom: 0.5rem;
+		display: block;
+	}
+
+	button, input[type="submit"] {
+		width: 200px;
+		padding: 1rem;
+		background: $pri;
+		border: 1px solid #fff;
+		color: #fff;
+		outline: 1px solid $pri;
+	}
+
+	.gform_footer {
+		padding: 0 2rem;
+		text-align: right;
+		position: relative;
+	}
+}
+
+.booking-form {
+
+
+	label {
+		font-size: 1.4rem;
+		color: #979797;
+		text-align: left;
+		margin-bottom: 0.5rem;
+		display: block;
+		line-height: 2rem;;
+	}
+
+	button, input[type="submit"] {
+		width: 200px;
+		padding: 1rem;
+		background: $pri;
+		border: 1px solid #fff;
+		color: #fff;
+		outline: 1px solid $pri;
+	}
+
+	.gform_footer {
+		padding: 0 2rem;
+		text-align: right;
+		position: relative;
+	}
+
+	li {
+		margin: 2rem 0;
+	}
+
+	input, textarea, select {
+		width: 100%;
+		font-size: 1.6rem;
+		padding: .5rem;
+		border: 1px solid #5e5e5e;
+	}
+
+	form {
+		max-width: 600px;
+    	margin: 0 auto;
+	}
+
+	div.validation_message {
+		font-size: 1.3rem;
+		margin: .5rem 0;
+		color: rgb(175, 0, 0);
+	}
+
+	.ginput_container_singleproduct {
+		font-size: 2rem;
+		margin: 1rem 0;
+	}
+
+	.hidden_label label {
+		display: none;
+	}
+
+}

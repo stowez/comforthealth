@@ -1,0 +1,218 @@
+.fullscreen-hero {
+	height: 100vh;
+	min-height: 800px;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+	display: flex;
+	webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+	position: relative;
+	background-size: cover;
+	background-position: 50%;
+	background-attachment: fixed;
+	@media only screen and (max-width: 700px)  {
+		//background-attachment: initial;
+	}
+	
+	&.fullscreen-map {
+	    display: block;
+	    max-height: 600px;
+	}
+	&.half--hero {
+		height: 65vh;
+		min-height: 40rem;
+
+		> .container article {
+			max-width: 100%;
+			text-align: left; 
+
+			h1 {
+				font-size: 4.5rem;
+				letter-spacing: 0.05rem;
+				@media only screen and (max-width: 700px)  {
+					font-size: 3rem;
+					line-height: 5rem;
+				}
+			}
+		}
+	#breadcrumbs {
+		margin-top: 55px;
+		font-size: 1.5rem;
+		color: #fff;
+		}
+	}
+
+	> .container  {
+		position: relative;
+		z-index: 2;
+		article {
+			max-width:800px;
+			margin: 0 auto;
+
+			&.content--center {
+				text-align: center;
+			}
+		}
+		p {
+			// font-size: 2rem;
+			// line-height: 2.8rem;
+		}
+
+		h2 {
+			color: #fff;
+			font-size: 4rem;
+			text-transform: uppercase;
+			line-height: 5rem;
+			@media only screen and (max-width: 700px)  {
+				font-size: 2.4rem;
+				line-height: 3.2rem;
+
+			}
+		}
+	}
+
+	h1 {
+		font-size: 6rem;
+		color: #fff;
+		text-transform: uppercase;
+		line-height: 7rem;
+		@media only screen and (max-width: 700px)  {
+			font-size: 4rem;
+			line-height: 5.5rem;
+		}
+	}
+	
+	&--center {
+		text-align: center;	
+	}
+
+	@media only screen and (max-width: 400px)  {
+		img {
+			max-width: 220px;
+		}
+	}
+	.content p {
+	@media only screen and (max-width: 600px)  {
+	
+			font-size: 1.4rem;
+	}
+}
+
+	&.lightCmpt {
+
+		> .container article {
+			padding-top: 4rem;
+			p {
+				color: #333;
+			}
+			h2 {
+				color: $pri;
+			}
+		}
+	}
+
+	a#scrollNext {
+		width: 36px;
+		height: 36px;
+		border-radius: 18px;
+		border: 1px solid #fff;
+		transform: rotate(90deg);
+		position: absolute;
+		bottom: 2rem;
+		left: 50%;
+		margin-left: -18px;
+		text-align: center;
+		z-index: 999;
+		opacity: 0.5;
+		transition: all 0.5s ease;
+		i {
+			font-size: 2rem;
+			color: #fff;
+			margin-top: 6px;
+			margin-left: 2px;
+		}
+
+		&:hover {
+			opacity:1;
+			cursor: pointer;
+		}
+	}
+}
+
+.home .fullscreen-hero {
+	@media only screen and (max-width: 400px)  {
+		img {display: none;}
+	}
+}
+
+.darkOverlay:after {
+	content:'';
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.55);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.videoContainer {
+	position: absolute;
+	width: 100%;
+	//height: 100%;
+	top: 0;
+	left: 0;
+	padding-bottom: 56.25%;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	align-items: center;
+
+	@media (max-width:800px) {
+		display:none;
+	}
+  }
+  
+  .videoContainer iframe {
+	/* optional */
+	width: 100%;
+	height: 100%; 
+	position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  
+.book-now-button {
+	padding: 1.5rem 1.5rem .75rem;
+	border: 1px solid #fff;
+	color: #fff;
+	text-decoration: none;
+	@media only screen and (max-width: 400px)  {
+		margin-bottom: .5rem;
+		display: inline-block;
+	}
+	}
+
+.hide-desktop {
+	@media (min-width:800px) {
+		display: none;
+	}
+}
+
+.fullscreen-hero.front-page {
+	@media (min-width:800px) {
+		align-items: center;
+		padding-top:65px;
+	}
+
+	img {
+		margin-top: 2.5rem;
+	}
+}

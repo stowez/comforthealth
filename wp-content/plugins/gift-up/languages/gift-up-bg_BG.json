@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-05-28 13:21+0000",
+    "generator": "Loco https://localise.biz/",
+    "source": "*.js",
+    "domain": "gift-up",
+    "locale_data": {
+        "gift-up": {
+            "": {
+                "domain": "",
+                "lang": "bg_BG",
+                "plural-forms": "nplurals=2; plural=n != 1;"
+            },
+            "Apply": [
+                "\u041f\u0440\u0438\u043b\u043e\u0436\u0438"
+            ],
+            "Available balance": [
+                "\u041d\u0430\u043b\u0438\u0447\u0435\u043d \u0431\u0430\u043b\u0430\u043d\u0441"
+            ],
+            "Gift card": [
+                "\u041a\u0430\u0440\u0442\u0430 \u0437\u0430 \u043f\u043e\u0434\u0430\u0440\u044a\u043a"
+            ],
+            "Gift card code": [
+                "\u041a\u043e\u0434 \u043d\u0430 \u043a\u0430\u0440\u0442\u0438 \u0437\u0430 \u043f\u043e\u0434\u0430\u0440\u044a\u043a"
+            ],
+            "Gift card not found": [
+                "\u041a\u0430\u0440\u0442\u0430 \u0437\u0430 \u043f\u043e\u0434\u0430\u0440\u044a\u043a \u043d\u0435 \u0435 \u043d\u0430\u043c\u0435\u0440\u0435\u043d\u0430"
+            ],
+            "Have a gift card?": [
+                "\u0418\u043c\u0430\u0442\u0435 \u0432\u0430\u0443\u0447\u0435\u0440 \u0437\u0430 \u043f\u043e\u0434\u0430\u0440\u044a\u043a?"
+            ]
+        }
+    }
+}

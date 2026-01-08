@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-05-28 13:25+0000",
+    "generator": "Loco https://localise.biz/",
+    "source": "*.js",
+    "domain": "gift-up",
+    "locale_data": {
+        "gift-up": {
+            "": {
+                "domain": "",
+                "lang": "hu_HU",
+                "plural-forms": "nplurals=2; plural=n != 1;"
+            },
+            "Apply": [
+                "Alkalmaz"
+            ],
+            "Available balance": [
+                "El\u00e9rhet\u0151 egyenleg"
+            ],
+            "Gift card": [
+                "Aj\u00e1nd\u00e9kk\u00e1rtya"
+            ],
+            "Gift card code": [
+                "Aj\u00e1nd\u00e9kk\u00e1rtya k\u00f3dja"
+            ],
+            "Gift card not found": [
+                "Aj\u00e1nd\u00e9kk\u00e1rtya nem tal\u00e1lhat\u00f3"
+            ],
+            "Have a gift card?": [
+                "Van aj\u00e1nd\u00e9kk\u00e1rty\u00e1ja?"
+            ]
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-05-28 13:25+0000",
+    "generator": "Loco https://localise.biz/",
+    "source": "*.js",
+    "domain": "gift-up",
+    "locale_data": {
+        "gift-up": {
+            "": {
+                "domain": "",
+                "lang": "lv",
+                "plural-forms": "nplurals=3; plural=n % 10 == 1 && n % 100 != 11 ? 0 : n != 0 ? 1 : 2;"
+            },
+            "Apply": [
+                "Piesakies"
+            ],
+            "Available balance": [
+                "Pieejamais atlikums"
+            ],
+            "Gift card": [
+                "D\u0101vanu karte"
+            ],
+            "Gift card code": [
+                "D\u0101vanu kartes kods"
+            ],
+            "Gift card not found": [
+                "D\u0101vanu karte nav atrasta"
+            ],
+            "Have a gift card?": [
+                "Vai jums ir d\u0101vanu karte?"
+            ]
+        }
+    }
+}

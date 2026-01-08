@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-05-28 13:25+0000",
+    "generator": "Loco https://localise.biz/",
+    "source": "*.js",
+    "domain": "gift-up",
+    "locale_data": {
+        "gift-up": {
+            "": {
+                "domain": "",
+                "lang": "uk",
+                "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);"
+            },
+            "Apply": [
+                "\u0417\u0430\u0441\u0442\u043e\u0441\u0443\u0432\u0430\u0442\u0438"
+            ],
+            "Available balance": [
+                "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0438\u0439 \u0431\u0430\u043b\u0430\u043d\u0441"
+            ],
+            "Gift card": [
+                "\u041f\u043e\u0434\u0430\u0440\u0443\u043d\u043a\u043e\u0432\u0430 \u043a\u0430\u0440\u0442\u043a\u0430"
+            ],
+            "Gift card code": [
+                "\u041a\u043e\u0434 \u043f\u043e\u0434\u0430\u0440\u0443\u043d\u043a\u043e\u0432\u043e\u0457 \u043a\u0430\u0440\u0442\u043a\u0438"
+            ],
+            "Gift card not found": [
+                "\u041f\u043e\u0434\u0430\u0440\u0443\u043d\u043a\u043e\u0432\u0430 \u043a\u0430\u0440\u0442\u0430 \u043d\u0435 \u0437\u043d\u0430\u0439\u0434\u0435\u043d\u0430"
+            ],
+            "Have a gift card?": [
+                "\u041c\u0430\u0454\u0442\u0435 \u043f\u043e\u0434\u0430\u0440\u0443\u043d\u043a\u043e\u0432\u0443 \u043a\u0430\u0440\u0442\u0443?"
+            ]
+        }
+    }
+}

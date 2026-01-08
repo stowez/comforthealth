@@ -1,0 +1,89 @@
+# Copyright (C) 2020 Gift Up!
+# This file is distributed under the same license as the Gift Up! plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gift Up! 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/free\n"
+"POT-Creation-Date: 2020-06-16 15:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-05-28 13:25+0000\n"
+"Last-Translator: Lee Tracey\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.1; php-7.4.30"
+
+#: view/giftup-cart.php:92 blocks/src/apply-block/frontend.js:92
+msgid "Apply"
+msgstr "Alkalmaz"
+
+#: view/giftup-cart.php:76 view/giftup-cart.php:91
+msgid "Apply gift card"
+msgstr "Alkalmazzon ajándékkártyát"
+
+#: view/giftup-cart.php:62 blocks/src/apply-block/frontend.js:165
+msgid "Available balance"
+msgstr "Elérhető egyenleg"
+
+#: includes/class-giftup-woocommerce-hooks.php:388 view/giftup-cart.php:46
+#: view/giftup-cart.php:58 blocks/src/apply-block/frontend.js:152
+msgid "Gift card"
+msgstr "Ajándékkártya"
+
+#: view/giftup-cart.php:30
+msgid ""
+"Gift card cannot be used as it is a unit-backed, not a currency-backed gift "
+"card"
+msgstr ""
+"Az ajándékkártya nem használható, mivel egységalapú, nem pénznem alapú "
+"ajándékkártya"
+
+#: view/giftup-cart.php:85 blocks/src/apply-block/frontend.js:112
+msgid "Gift card code"
+msgstr "Ajándékkártya kódja"
+
+#: view/giftup-cart.php:34
+msgid "Gift card has no remaining balance"
+msgstr "Az ajándékkártyának nincs fennmaradó egyenlege"
+
+#: view/giftup-cart.php:26
+msgid "Gift card is no longer valid"
+msgstr "Az ajándékkártya már nem érvényes"
+
+#: view/giftup-cart.php:42 blocks/src/apply-block/frontend.js:42
+msgid "Gift card not found"
+msgstr "Ajándékkártya nem található"
+
+#. Name of the plugin
+#. Author of the plugin
+#| msgid "Gift Up!"
+msgid "Gift Up"
+msgstr "Gift Up"
+
+#: blocks/src/apply-block/editor.js:21 blocks/src/apply-block/frontend.js:102
+msgid "Have a gift card?"
+msgstr "Van ajándékkártyája?"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.giftup.com/"
+msgstr "https://www.giftup.com/"
+
+#: view/giftup-cart.php:69
+#| msgid "remove"
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#. Description of the plugin
+msgid ""
+"The simplest way to sell your own gift cards/certificates/vouchers from "
+"inside your WordPress website easily with no monthly fee. If you also use "
+"WooCommerce, the gift cards are redeemable in your website shopping cart."
+msgstr ""
+"A legegyszerűbb módja annak, hogy saját "
+"ajándékkártyáidat/utalványaidat/kuponjaidat WordPress webhelyeden belül "
+"értékesítsd, havi díj nélkül. Ha a WooCommerce-t is használod, az "
+"ajándékkártyák beválthatók a webhelyed bevásárlókosarában."

@@ -1,0 +1,13 @@
+.faqs {
+	.question {
+		margin-bottom: 1.5rem;
+		p {
+			color: $pri;
+			font-size: 1.6rem;
+		}
+		p.answer {
+			font-size: 1.4rem;
+			color: #333;
+		}
+	}
+}

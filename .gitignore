@@ -1,0 +1,63 @@
+# WordPress core files and directories (optional - uncomment if not tracking core)
+# wp-admin/
+# wp-includes/
+# wp-*.php
+
+# wp-content subdirectories
+wp-content/cache/**/*
+wp-content/upgrade/**/*
+wp-content/wflogs/**/*
+wp-content/backup-*
+# wp-content/uploads/
+# wp-content/plugins/*/
+!wp-content/plugins/.gitkeep
+
+# Sensitive files
+wp-config.php
+.htaccess
+wp-config-local.php
+wp-cli.local.yml
+
+# Database files
+*.sql
+*.sqlite
+*.db
+dump/
+
+# OS and IDE files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+.env
+.env.local
+
+# Editor backups and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*~
+.*.swp
+
+# Node and build tools (if using)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Miscellaneous
+.DS_Store
+*.zip
+*.gz
+*.tar

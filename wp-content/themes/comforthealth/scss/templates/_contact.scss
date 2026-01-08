@@ -1,0 +1,18 @@
+.fullscreen-map {
+	position: relative;
+	.infoBox {
+		padding: 25px;
+		background: rgba(0,0,0,0.85);
+		position: absolute;
+		z-index: 100;
+		top: 25%;
+		left: 5%;
+		p {
+			color: #fff;
+			display: block;
+			i {
+				width: 25px;
+			}
+		}
+	}
+}

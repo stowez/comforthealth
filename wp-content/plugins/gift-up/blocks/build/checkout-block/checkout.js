@@ -1,0 +1,1 @@
+!function(t,e,n,i,p,s,c){t[p]=t[p]||function(){(t[p].q=t[p].q||[]).push(arguments)},(s=e.createElement(n)).async=1,s.src="https://cdn.giftup.app/dist/gift-up.js",(c=e.getElementsByTagName(n)[0]).parentNode.insertBefore(s,c)}(window,document,"script",0,"giftup");

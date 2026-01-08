@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-05-28 13:24+0000",
+    "generator": "Loco https://localise.biz/",
+    "source": "*.js",
+    "domain": "gift-up",
+    "locale_data": {
+        "gift-up": {
+            "": {
+                "domain": "",
+                "lang": "da_DK",
+                "plural-forms": "nplurals=2; plural=n != 1;"
+            },
+            "Apply": [
+                "Ans\u00f8ge"
+            ],
+            "Available balance": [
+                "Tilg\u00e6ngelig saldo"
+            ],
+            "Gift card": [
+                "Gavekort"
+            ],
+            "Gift card code": [
+                "Gavekort kode"
+            ],
+            "Gift card not found": [
+                "Gavekort ikke fundet"
+            ],
+            "Have a gift card?": [
+                "Har du et gavekort?"
+            ]
+        }
+    }
+}

@@ -1,0 +1,263 @@
+.blog {
+	.banner .container {
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+}
+
+.blog-page {
+	padding-top: 60px;
+	
+	
+	
+	.all-posts {
+		padding: 3rem 0;
+		overflow: hidden;
+	}
+
+	.blog__header {
+		padding: 2rem;
+		font-size: 1.3rem;
+		
+		.blog__title {
+			text-transform: capitalize;
+			margin-bottom: .5rem;
+
+			a {
+				text-decoration: none;
+				color: #333;
+			}
+		}
+	}
+
+	.blog__author {
+		font-style: italic;
+		color: #666;
+		display: none;
+	}
+
+	.banner {
+		height: 500px;
+		background-size: cover;
+		position: relative;
+		&:after {
+			content: "";
+			position: absolute;
+			height: 100%;
+			width: 100%;
+			background: rgba(0,0,0,0.65);
+			top: 0;
+			left: 0;
+		}
+
+		header {
+			width: 550px;
+			position: relative;
+				z-index: 10;
+				@media only screen and (max-width: 600px)  {
+					width: 100%;
+				}
+		}
+
+		.banner__title {
+			color: #fff;
+			font-size: 5rem;
+			line-height: 6.5rem;
+			margin-bottom: 1rem;
+			@media only screen and (max-width: 600px)  {
+				font-size: 3rem;
+				line-height: 5rem;
+			}
+			a {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.avatar {
+
+		img {
+			border-radius: 16px;
+			height: 32px;
+			width: 32px;
+			margin-right: 10px;
+			vertical-align: bottom;
+		}
+	}
+
+	
+
+	footer {
+		color: #fff;
+		font-size: 1.7rem;
+
+		div {
+			padding: 3rem 0 0 0;
+		}
+
+		span {
+			@media only screen and (max-width: 810px)  {
+				font-size: 14px;
+				display: block;
+			}
+		}
+
+		a {
+			@media only screen and (max-width: 810px)  {
+				display: block;
+				margin: 2rem  0 0;
+				float: none;
+			}
+		}
+
+	}
+
+
+	.single-blog.masonry {
+	    width: calc(50% - 20px);
+	    margin: 10px;
+	    float: left;
+	    border-radius: 3px;
+	    border: 1px solid #ebebeb;
+	    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+	    background: #fff;
+	    position: relative;
+		padding-bottom: 5rem;
+		@media only screen and (max-width: 810px)  {
+			padding-bottom: 10rem;
+		}
+
+		@media only screen and (max-width: 700px)  {
+			padding-bottom: 0;
+			width: 100%;
+			display: block;
+			float: none;
+			margin-bottom: 2rem;
+		}
+		h2 {
+			line-height: 3.4rem;
+
+			@media only screen and (max-width: 810px)  {
+				font-size: 2.5rem;
+			}
+		}
+
+	    footer {
+	    	position: absolute;
+	    	bottom: 0;
+	    	padding: 2rem 2rem 2rem;
+	    	color: #333;
+	    	width: 100%;
+	    	left: 0;
+
+	    	a.btn {
+	    		font-size: 1.5rem;
+	    		float: right;
+	    		@media only screen and (max-width:810px)  {
+					float: none;
+					text-align: center;
+					display: block;
+	    		}
+	    	}
+
+	    	@media only screen and (max-width: 700px)  {
+				position: relative;
+	    	}
+	    }
+	}
+
+	.blog__figure {
+		width: 100%;
+		height: 15rem;
+		margin-bottom: 2rem;
+		background-size: cover;
+		background-position: 50%;
+		padding: 1rem;
+		position: relative;
+	}
+
+	.blog__content {
+		padding: 2rem;
+
+		h2 a {
+			color: #333;
+			text-decoration: none;
+
+			&:hover {
+				color: $pri;
+			}
+		}
+	}
+
+	.cat-tags {
+		display: inline-block;
+		padding: 7px 10px 4px;
+		border-radius: 5px;
+		color: #fff;
+		font-size: 1.4rem;
+		text-decoration: none;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		background: rgba(28, 141, 131, 0.68);
+
+		&:hover {
+			background: $pri;
+		}
+	}
+}
+
+.single-post .banner {
+	height: auto;
+	padding: 5rem 0 7rem;
+	background: #fbfbfb;
+	border-bottom: 1px solid #dedede;
+
+	max-height: 400px;;
+	nav {
+		margin-bottom: 2rem;
+	}
+
+	&:after {
+		display: none;
+	}
+
+	.banner__title a {
+		color: #333;
+	}
+	.banner__author span {
+		color: #333;
+	}
+}
+
+.content__body {
+	padding-bottom: 25px;
+}
+
+.featured__single {
+	position: relative;
+	top: -25px;
+	height: 40rem;
+	border-radius: 0.5rem;
+	width: 100%;
+	background-size: cover;
+	display: block;
+	margin-bottom: 25px;
+}
+
+.the__content {
+	max-width: 800px; 
+	margin: 0 auto;
+}
+.blog__timestamp {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 8px 5px 5px;
+	font-size: 1.4rem;
+	color: #fff;
+	background: rgba(0,0,0,.75);
+}

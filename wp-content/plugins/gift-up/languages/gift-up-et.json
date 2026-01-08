@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-05-28 13:24+0000",
+    "generator": "Loco https://localise.biz/",
+    "source": "*.js",
+    "domain": "gift-up",
+    "locale_data": {
+        "gift-up": {
+            "": {
+                "domain": "",
+                "lang": "et",
+                "plural-forms": "nplurals=2; plural=n != 1;"
+            },
+            "Apply": [
+                "Kandideeri"
+            ],
+            "Available balance": [
+                "Saadaolev saldo"
+            ],
+            "Gift card": [
+                "Kinkekaart"
+            ],
+            "Gift card code": [
+                "Kinkekaardi kood"
+            ],
+            "Gift card not found": [
+                "Kinkekaarti ei leitud"
+            ],
+            "Have a gift card?": [
+                "Kas teil on kinkekaart?"
+            ]
+        }
+    }
+}

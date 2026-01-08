@@ -1,0 +1,79 @@
+{
+  "apiVersion": 3,
+  "name": "giftup/checkout",
+  "version": "2.0.0",
+  "title": "Gift Up checkout",
+  "category": "widgets",
+  "description": "Adds the Gift Up gift card checkout to a page of your choice",
+  "supports": {
+    "align": true,
+    "html": true,
+    "multiple": true,
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": true
+    }
+  },
+  "attributes": {
+    "alignment": {
+      "type": "string"
+    },
+    "companyId": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "product": {
+      "type": "string"
+    },
+    "group": {
+      "type": "string"
+    },
+    "payment": {
+      "type": "string"
+    },
+    "promocode": {
+      "type": "string"
+    },
+    "referrer": {
+      "type": "string"
+    },
+    "whofor": {
+      "type": "string"
+    },
+    "hideartwork": {
+      "type": "boolean"
+    },
+    "hidegooglefonts": {
+      "type": "boolean"
+    },
+    "step": {
+      "type": "string"
+    },
+    "purchasername": {
+      "type": "string"
+    },
+    "purchaseremail": {
+      "type": "string"
+    },
+    "recipientname": {
+      "type": "string"
+    },
+    "recipientemail": {
+      "type": "string"
+    },
+    "optionalmessage": {
+      "type": "string"
+    },
+    "customvalueamount": {
+      "type": "number"
+    }
+  },
+  "textdomain": "gift-up",
+  "script": "giftup-checkout-external",
+  "style": "giftup-checkout-external",
+  "editorScript": "giftup-checkout-block-editor",
+  "render": "file:./render.php"
+}

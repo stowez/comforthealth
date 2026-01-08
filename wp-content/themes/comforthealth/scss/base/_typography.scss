@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('../fonts/CenturyGothicStd.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/CenturyGothicStd.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/CenturyGothicStd.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/CenturyGothicStd.svg#CenturyGothicStd') format('svg'); /* Legacy iOS */
+}
+
+h1 {
+	font-size: 3.5rem;
+}
+
+p {
+	color: #333;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}
+
+h2 {
+	font-size: 2.8rem;
+	// color: #333;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+	color: $pri;
+}
+
+h3 {
+	font-size: 2.4rem;
+	color: $pri;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+}
+
+body {
+	font-family: 'CenturyGothic', Helvetica, Arial, sans-serif;
+}

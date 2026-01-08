@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-05-28 13:25+0000",
+    "generator": "Loco https://localise.biz/",
+    "source": "*.js",
+    "domain": "gift-up",
+    "locale_data": {
+        "gift-up": {
+            "": {
+                "domain": "",
+                "lang": "sk_SK",
+                "plural-forms": "nplurals=3; plural=( n == 1 ) ? 0 : ( n >= 2 && n <= 4 ) ? 1 : 2;"
+            },
+            "Apply": [
+                "Plati\u0165"
+            ],
+            "Available balance": [
+                "Dostupn\u00fd zostatok"
+            ],
+            "Gift card": [
+                "Dar\u010dekov\u00e1 karta"
+            ],
+            "Gift card code": [
+                "K\u00f3d dar\u010dekovej karty"
+            ],
+            "Gift card not found": [
+                "Dar\u010dekov\u00e1 karta sa nena\u0161la"
+            ],
+            "Have a gift card?": [
+                "M\u00e1te dar\u010dekov\u00fa kartu?"
+            ]
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.wp-block-giftup-checkout.aligncenter .gift-up-target {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-block-giftup-checkout.alignright .gift-up-target {
+    margin-left: auto;
+}
+
+.gift-up-target.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gift-up-target.right {
+    margin-left: auto;
+}
+
+.gift-up-target.gift-up-block {
+    max-width: 512px;
+}
+
+.gift-up-target.gift-up-checkout-editor {
+    position: relative;
+    pointer-events: none;
+}

@@ -1,0 +1,137 @@
+body {
+	font-size: 0.625px;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+/* --- LAYOUT --- */
+.container {
+	width: 90%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+
+body *  {
+	box-sizing: border-box;
+}
+
+.flexWrap {
+	display: flex;
+ 	align-items: center;
+	> * {
+		flex: auto;
+	}
+}
+
+.left {
+	float: left;
+}
+
+img {
+	max-width: 100%;
+	height:auto;
+}
+.content {
+	padding: 2rem 0 ;
+	&--center {
+		text-align: center;
+	}
+
+	p {
+		color: #fff;
+		font-size: 1.6rem;
+		
+	}
+}
+
+.component {
+	padding: 9.5rem 0;
+	@media only screen and (max-width: 710px)  {
+		padding: 5rem 0;
+	}
+
+}
+
+.parallax {
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}
+
+
+.col {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.col-6 {
+	width: 50%;
+	max-width: 50%;
+}
+
+.row {
+	font-size: 0;
+}
+
+.col-3 {
+	width: 25%;
+	max-width: 25%;
+
+	@media only screen and (max-width: 710px)  { 
+		width: 45.5%;
+		max-width: 45.5%;
+		margin: 2rem 2%;
+	}
+
+	@media only screen and (max-width: 500px)  { 
+		max-width: 100%;
+		width: 100%;
+		display: block;
+	}
+}
+
+.col-4 {
+	width: 33%;
+	max-width: 33%;
+	@media only screen and (max-width: 710px)  {
+		display: block;
+		width: 100%;
+		max-width: 400px;
+		margin: 2rem auto;
+		float: none;
+	}
+}
+
+.col-12 {
+	width: 100%;
+	clear: both;
+}
+
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.col-padding {
+	padding: 25px;
+}
+.v-center {
+	    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.single p {
+margin-bottom: 1rem;}
+.single h3 {line-height:3.6rem;}
+.single a {color: #1c8d83}
+
+.gform_confirmation_message{
+    display: block;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #1c8c82;
+}

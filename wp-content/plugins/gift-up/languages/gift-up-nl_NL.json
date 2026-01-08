@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-05-28 13:24+0000",
+    "generator": "Loco https://localise.biz/",
+    "source": "*.js",
+    "domain": "gift-up",
+    "locale_data": {
+        "gift-up": {
+            "": {
+                "domain": "",
+                "lang": "nl_NL",
+                "plural-forms": "nplurals=2; plural=n != 1;"
+            },
+            "Apply": [
+                "Toepassen"
+            ],
+            "Available balance": [
+                "Beschikbaar saldo"
+            ],
+            "Gift card": [
+                "Cadeaukaart"
+            ],
+            "Gift card code": [
+                "Cadeaukaart code"
+            ],
+            "Gift card not found": [
+                "Cadeaukaart niet gevonden"
+            ],
+            "Have a gift card?": [
+                "Heeft u een cadeaubon?"
+            ]
+        }
+    }
+}

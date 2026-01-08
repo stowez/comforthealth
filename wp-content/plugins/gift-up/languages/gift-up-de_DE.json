@@ -1,0 +1,33 @@
+{
+    "translation-revision-date": "2025-05-28 13:24+0000",
+    "generator": "Loco https://localise.biz/",
+    "source": "*.js",
+    "domain": "gift-up",
+    "locale_data": {
+        "gift-up": {
+            "": {
+                "domain": "",
+                "lang": "de_DE",
+                "plural-forms": "nplurals=2; plural=n != 1;"
+            },
+            "Apply": [
+                "Anwenden"
+            ],
+            "Available balance": [
+                "Verf\u00fcgbares Guthaben"
+            ],
+            "Gift card": [
+                "Geschenkkarte"
+            ],
+            "Gift card code": [
+                "Geschenkkartencode"
+            ],
+            "Gift card not found": [
+                "Geschenkkarte nicht gefunden"
+            ],
+            "Have a gift card?": [
+                "Haben Sie eine Geschenkkarte?"
+            ]
+        }
+    }
+}
